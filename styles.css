@@ -1,0 +1,71 @@
+html {
+    font-size: 16px;
+  }
+
+  body,html {
+    width: 960px;
+    margin: 1rem auto;
+    font-family: serif;
+    font-family: 'Hammersmith One', sans-serif;
+  }
+
+  .task_value {
+    height: 1.5rem;
+  }
+
+  .task_submit {
+    height: 2rem;
+  }
+
+  #table {
+    background-color: #dcdcdc;
+    width: 50%;
+    height: 400px;
+    border-radius: 1rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  li {
+    margin: 2rem 2rem 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+#wrapper{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#result{
+    margin: 220px auto;
+    width: -2000px;
+    height: -1000px;
+    padding: 50px;
+    text-align:center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 60px;
+    color: white;
+
+}
+#btn{
+    margin: -130px auto;
+    width: -20px;
+    height: 100px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+  }
